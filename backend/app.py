@@ -32,11 +32,9 @@ def predict():
 
         prediction = model.predict(features)[0]
 
-        # Convert to millions
-        prediction_million = prediction / 1_000_000
 
         return jsonify({
-            "prediction": float(prediction_million)
+            "prediction": float(prediction)
         })
 
     except Exception as e:

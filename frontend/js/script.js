@@ -134,7 +134,7 @@ if (predictForm) {
     const rounded = prediction/ 1000000;
     const risk = getRisk(rounded);
 
-    resultValue.innerHTML = rounded.toFixed(1) + ' Million <span>predicted cases</span>';
+    resultValue.innerHTML = rounded.toFixed(2) + ' Million <span>predicted cases</span>';
 
     riskBadge.className = `risk-badge ${risk.cls}`;
     riskBadge.innerHTML = `<span class="risk-dot"></span>${risk.level} Risk`;
