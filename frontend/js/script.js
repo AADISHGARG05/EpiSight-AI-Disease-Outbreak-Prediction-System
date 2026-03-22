@@ -179,13 +179,8 @@ if (predictForm) {
     headers: {
         "Content-Type": "application/json"
     },
-    body: JSON.stringify({
-        growth_rate: growthRate,
-        retail: retail,
-        workplaces: workplaces,
-        residential: residential
-    })
-})
+    body: JSON.stringify(payload)
+});
 
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
 
