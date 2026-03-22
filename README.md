@@ -6,7 +6,8 @@ An end-to-end AI-powered system that predicts disease outbreak risk based on mob
 
 ## 🌐 Live Demo
 
-( Add your Render link here )
+Frontend - https://episight-ai-h4z8.onrender.com/
+Backend - https://episight-ai.onrender.com/
 
 ---
 
