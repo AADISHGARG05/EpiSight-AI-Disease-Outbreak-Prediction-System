@@ -94,7 +94,7 @@ Big_Data_Project/
 **Aadish Garg**
 
 * GitHub: https://github.com/AADISHGARG05
-* LinkedIn: https://www.linkedin.com/in/aadish-garg-ab2a59288/
+* LinkedIn: [https://www.linkedin.com/in/aadish-garg-ab2a59288/](https://www.linkedin.com/in/aadish-garg/)
 
 ---
 
