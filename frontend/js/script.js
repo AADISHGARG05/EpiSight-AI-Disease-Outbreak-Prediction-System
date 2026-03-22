@@ -174,11 +174,18 @@ if (predictForm) {
     resultBar.style.width = '0';
 
     try {
-      const res = await fetch('https://episight-ai.onrender.com', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
+      const res = await fetch("https://episight-ai.onrender.com/predict", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        growth_rate: growthRate,
+        retail: retail,
+        workplaces: workplaces,
+        residential: residential
+    })
+})
 
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
 
